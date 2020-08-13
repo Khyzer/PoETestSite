@@ -26,5 +26,5 @@ myImage.onclick = function() {
 function setUserName(){
     var myName = prompt("Bitte geben Sie Ihren Namen ein.");
     localStorage.setItem("name", myName);
-    myHeading.textContent("Moin " +myName+ "! Hier ist deine PoE Seite")
+    myHeading.textContent = ("Moin " +myName+ "! Hier ist deine PoE Seite")
 }
